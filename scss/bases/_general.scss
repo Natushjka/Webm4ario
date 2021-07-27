@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: $font;
+}
+
+.flecha{
+width: 4em;
+height: 4em;
+padding: 1em;
+background-color: #fff;
+position: relative;
+left: 79em;
+}
+
+.fixed2{
+position: sticky;
+bottom: 0;
+top:8em;
+padding: 1em;
+}
+
+@media (min-width: $breakpoint-xs) and (max-width: $breakpoint-md) {
+    .flecha{
+        display: none;
+    }
+    .fixed2{
+        display: none;
+    }
+}
+
+@media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+    .flecha{
+        position: relative;
+        left: 0.5em;
+    }
+}
+
+@media (min-width: $breakpoint-lg) and (max-width: $breakpoint-xl) {
+    .flecha{
+        position: relative;
+        left: 2em;
+    }
+}

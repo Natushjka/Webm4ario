@@ -1,0 +1,169 @@
+.aside {
+    height: 236px;
+    width: 276px;
+}
+
+.avatares1 {
+    width: 18em;
+    height: 16em;
+    border-radius: 50%;
+    margin: 2em;
+}
+
+.h-b {
+    color: $color-1;
+    font-size: 1em;
+    text-decoration: underline $color-3 2px;
+}
+
+.fondo {
+    background-color: $color-2;
+    box-shadow: 5px 5px 5px $color-3;
+    width: 23em;
+    height: 20em;
+}
+
+h1 {
+    color: $color-1;
+}
+
+.style-poem6 {
+    margin-left: 4em;
+    letter-spacing: 3px;
+    line-height: 2em;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: right;
+}
+
+/*b377-A77*/
+.bgi-1 {
+    height: 620px;
+    background-image: url("https://i.ibb.co/1r6z5hM/b377.png");
+}
+
+.style-poem1 {
+    margin-left: 4em;
+    letter-spacing: 3px;
+    line-height: 1em;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: left;
+}
+
+/*barcaza*/
+.bgi-2 {
+    height: 670px;
+    background-image: url("https://i.ibb.co/BNm54w2/barcaza.jpg");
+}
+
+.style-poem2 {
+    margin-left: 4em;
+    letter-spacing: 3px;
+    line-height: 1em;
+    font-size: 1em;
+    font-weight: 500;
+    text-align: left;
+}
+
+/*paraguay*/
+.bgi-3 {
+    height: 620px;
+    background-image: url("https://i.ibb.co/Ht2n5Xy/paraguay.jpg");
+}
+
+/*asesina*/
+.bgi-4 {
+    height: 620px;
+    background-image: url("https://i.ibb.co/8512W9J/asesina.jpg");
+}
+
+.style-poem4 {
+    margin-left: 4em;
+    letter-spacing: 3px;
+    line-height: 4em;
+    font-size: 1em;
+    font-weight: 500;
+    text-align: right;
+}
+
+/*grifo*/
+.bgi-5 {
+    height: 900px;
+    background-image: url("https://i.ibb.co/G921zT3/grifo.png" );
+}
+
+/*tímpanos*/
+.bgi-6 {
+    height: 610px;
+    background-image: url("https://i.ibb.co/s9D0fGw/timpanos.png");
+}
+
+/*queries generales poemas*/
+
+@media (min-width: $breakpoint-xs) and (max-width: $breakpoint-sm) {
+
+    .bgi-1,
+    .bgi-2,
+    .bgi-3,
+    .bgi-4,
+    .bgi-5,
+    .bgi-6 {
+        display: none;
+    }
+
+    .avatares1 {
+        width: 14em;
+        height: 13em;
+        margin-left: 1em;
+        margin-top: 1.5em;
+    }
+
+    .fondo {
+        width: 16em;
+        height: 16em;
+        margin-bottom: 1em;
+    }
+
+    .poema-item1 {
+        width: 300px;
+        height: 500px;
+        margin: 1em;
+    }
+}
+/*no sé por qué justo en este rango se rompía, solo así logré solucionarlo*/
+@media (min-width: 700px) and (max-width: 767px) {
+    .mobile{
+        display: none;
+    }
+    .poema-item1{
+        display: none;
+    }
+}
+@media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+
+    .mobile{
+        display: none;
+    }
+    .poema-item1{
+        display: none;
+    }
+    
+    .fondo {
+        width: 16em;
+        height: 16em;
+        margin-bottom: 1em;
+    }
+
+    .avatares1 {
+        width: 14em;
+        height: 13em;
+        margin-left: 1em;
+        margin-top: 1.5em;
+    }
+
+    .footer {
+        font-size: 1.5em;
+    }
+
+}

@@ -1,0 +1,14 @@
+@mixin card ($left, $width, $height) {
+    position: relative;
+    left: $left;
+    background-color: $color-4;
+    width: $width;
+    height: $height;
+    border-radius: 5px;
+}
+
+@mixin obra ($color){
+    padding: 2em;
+    background-color: $color;
+    box-shadow: 5px 5px 15px $color-3;
+}

@@ -1,0 +1,33 @@
+.fixed {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: $color-1;
+    position: fixed;
+    bottom: 1em;
+}
+
+.redes {
+    padding: 20px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: $color-3;
+}
+
+footer section div img {
+    margin-left: 7em;
+    width: 6em;
+    height: 10em;
+}
+
+@media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md){
+    footer section div img {
+        margin-left: 17em;
+        margin-top: 8em;
+    }
+}
+
+.footer {
+    color: $color-2;
+}

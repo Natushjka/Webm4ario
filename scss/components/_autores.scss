@@ -1,0 +1,56 @@
+.autores {
+    background-color: $color-4;
+}
+
+.avatares {
+    width: 16em;
+    height: 14em;
+    border-radius: 50%;
+    margin: 1em 3em;
+}
+
+.h-a {
+    color: $color-1;
+    margin: 1em;
+}
+
+.autores-paragraph {
+    color: $color-1;
+    line-height: 30px;
+    text-align: center;
+}
+
+@media (min-width: $breakpoint-xs) and (max-width: $breakpoint-sm) {
+    .autores {
+        margin: 4em auto;
+        width: 20em;
+    }
+
+    .avatares {
+        width: 12em;
+        height: 11em;
+    }
+}
+
+@media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+    .autores {
+        margin: 4em auto;
+        width: 25em;
+        padding: 2em;
+    }
+
+}
+
+@media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+    .avatares {
+        width: 14em;
+        height: 13em;
+        margin-left: 3em;
+    }
+
+    .autores {
+        width: 70em;
+        margin: 4em auto;
+    }
+
+}

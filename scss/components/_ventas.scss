@@ -1,0 +1,169 @@
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+.link:hover {
+    text-decoration: $color-3 underline;
+    color: $color-1;
+    font-weight: 600;
+}
+
+.cardd {
+    @include card (3em, 40em, 22em)
+}
+
+.cardd1 {
+    @include card (39em, 40em, 22em)
+}
+
+.avatares2 {
+    width: 16em;
+    height: 16em;
+    border-radius: 50%;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.h-c {
+    writing-mode: vertical-rl;
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+
+.portfolio {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.h-b {
+    font-size: 1em;
+    padding: 4em 1em;
+}
+
+.h-d {
+    font-size: 3em;
+    color: $color-1;
+}
+
+.card-1,
+.card-3,
+.card-5,
+.card-8 {
+    @include obra ($color-1)
+}
+
+.card-2,
+.card-6 {
+    @include obra ($color-2)
+}
+
+.card-4,
+.card-7 {
+    @include obra ($color-3)
+}
+
+@media (min-width: $breakpoint-xs) and (max-width: $breakpoint-sm) {
+
+    .cardd,
+    .cardd1 {
+        @include card (0.5em, 22em, 20em)
+    }
+
+    .avatares2 {
+        width: 12em;
+        height: 12em;
+        margin-bottom: 1em;
+        padding: 0.5em;
+    }
+
+    .h-c {
+        font-size: 1em;
+        margin-top: 3em;
+    }
+
+    .h-b {
+        font-size: 1em;
+        padding: 0.25em;
+    }
+
+    .p-1 {
+        font-size: 1em;
+    }
+
+    .h-d{
+        font-size: 1.5em;
+        padding: 0.5em;
+    }
+}
+
+@media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md) {
+    .cardd {
+        @include card (1em, 32em, 25em)
+    }
+
+    .cardd1 {
+        @include card (14em, 32em, 25em)
+    }
+
+    .avatares2 {
+        width: 16em;
+        height: 16em;
+        padding: 1em;
+    }
+
+    .h-c {
+        font-size: 1.5em;
+        margin-top: 3em;
+    }
+
+    .h-b {
+        font-size: 1.5em;
+        padding: 1em;
+    }
+
+    .card-4,
+    .card-8 {
+        margin-top: 5em;
+    }
+
+    .h-d {
+        font-size: 1.5em;
+        writing-mode: horizontal-tb;
+    }
+}
+
+@media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+
+    .cardd {
+        @include card (2em, 40em, 30em)
+    }
+
+    .cardd1 {
+        @include card (23em, 40em, 30em)
+    }
+
+    .avatares2 {
+        width: 20em;
+        height: 20em;
+        border-radius: 50%;
+        margin-bottom: 1em;
+        padding: 1em;
+    }
+
+
+    .h-c {
+        font-size: 2em;
+        margin-top: 2em;
+    }
+
+    .h-b {
+        font-size: 1.5em;
+    }
+
+    .h-d {
+        font-size: 2em;
+        writing-mode: horizontal-tb;
+    }
+}
