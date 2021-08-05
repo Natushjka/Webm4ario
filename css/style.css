@@ -41,16 +41,10 @@ body {
     display: none;
   }
 }
-@media (min-width: 993px) and (max-width: 1300px) {
+@media (min-width: 993px) {
   .flecha {
     position: relative;
     left: 0.5em;
-  }
-}
-@media (min-width: 1300px) and (max-width: 4000px) {
-  .flecha {
-    position: relative;
-    left: 2em;
   }
 }
 header {
@@ -113,7 +107,7 @@ footer section div img {
   height: 10em;
 }
 
-@media (min-width: 700px) and (max-width: 993px) {
+@media (min-width: 768px) and (max-width: 993px) {
   footer section div img {
     margin-left: 17em;
     margin-top: 8em;
@@ -178,7 +172,7 @@ section {
   font-size: 1em;
 }
 
-@media (min-width: 300px) and (max-width: 700px) {
+@media (min-width: 300px) and (max-width: 768px) {
   .nosotres {
     height: 15em;
     width: 15em;
@@ -228,7 +222,7 @@ section {
     margin: auto 2em;
   }
 }
-@media (min-width: 700px) and (max-width: 993px) {
+@media (min-width: 768px) and (max-width: 993px) {
   .grid-container {
     display: grid;
     grid-template-columns: repeat 4, 1fr;
@@ -341,7 +335,7 @@ section {
   text-align: center;
 }
 
-@media (min-width: 300px) and (max-width: 700px) {
+@media (min-width: 300px) and (max-width: 768px) {
   .autores {
     margin: 4em auto;
     width: 20em;
@@ -352,7 +346,7 @@ section {
     height: 11em;
   }
 }
-@media (min-width: 700px) and (max-width: 993px) {
+@media (min-width: 768px) and (max-width: 993px) {
   .autores {
     margin: 4em auto;
     width: 25em;
@@ -384,12 +378,12 @@ section {
   box-shadow: 5px 5px 15px #383838;
 }
 
-@media (min-width: 300px) and (max-width: 700px) {
+@media (min-width: 300px) and (max-width: 768px) {
   .indice {
     width: 20em;
   }
 }
-@media (min-width: 700px) and (max-width: 993px) {
+@media (min-width: 768px) and (max-width: 993px) {
   .indice {
     width: 50em;
   }
@@ -401,7 +395,7 @@ section {
   }
 
   .medium {
-    margin-left: 7em;
+    margin-left: 10em;
   }
 }
 h5 {
@@ -488,7 +482,7 @@ h5 {
   grid-row-end: 4;
 }
 
-@media (min-width: 300px) and (max-width: 700px) {
+@media (min-width: 300px) and (max-width: 768px) {
   .grid-container2 {
     display: grid;
     grid-template-columns: auto;
@@ -553,7 +547,7 @@ h5 {
     margin: auto 4em;
   }
 }
-@media (min-width: 700px) and (max-width: 993px) {
+@media (min-width: 768px) and (max-width: 993px) {
   .grid-container2 {
     display: grid;
     grid-template-columns: repeat 4, 1fr;
@@ -760,18 +754,18 @@ h1 {
 
 /*grifo*/
 .bgi-5 {
-  height: 900px;
+  height: 420px;
   background-image: url("https://i.ibb.co/G921zT3/grifo.png");
 }
 
 /*tímpanos*/
 .bgi-6 {
-  height: 610px;
+  height: 620px;
   background-image: url("https://i.ibb.co/s9D0fGw/timpanos.png");
 }
 
 /*queries generales poemas*/
-@media (min-width: 300px) and (max-width: 700px) {
+@media (min-width: 300px) and (max-width: 768px) {
   .bgi-1,
 .bgi-2,
 .bgi-3,
@@ -810,7 +804,7 @@ h1 {
     display: none;
   }
 }
-@media (min-width: 700px) and (max-width: 993px) {
+@media (min-width: 768px) and (max-width: 993px) {
   .mobile {
     display: none;
   }
@@ -918,7 +912,7 @@ h1 {
   box-shadow: 5px 5px 15px #383838;
 }
 
-@media (min-width: 300px) and (max-width: 700px) {
+@media (min-width: 300px) and (max-width: 768px) {
   .cardd,
 .cardd1 {
     position: relative;
@@ -955,7 +949,7 @@ h1 {
     padding: 0.5em;
   }
 }
-@media (min-width: 700px) and (max-width: 993px) {
+@media (min-width: 768px) and (max-width: 993px) {
   .cardd {
     position: relative;
     left: 1em;

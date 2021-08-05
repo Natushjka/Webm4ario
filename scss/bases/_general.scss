@@ -40,16 +40,9 @@ padding: 1em;
     }
 }
 
-@media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg) {
+@media (min-width: $breakpoint-md) {
     .flecha{
         position: relative;
         left: 0.5em;
-    }
-}
-
-@media (min-width: $breakpoint-lg) and (max-width: $breakpoint-xl) {
-    .flecha{
-        position: relative;
-        left: 2em;
     }
 }
